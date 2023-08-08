@@ -1,0 +1,210 @@
+* {
+    /*universal selector*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #282828;
+    background: lightcyan;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 5px;
+    /*text-align: justify;*/
+}
+
+h2 {
+    margin-bottom: 7px;
+}
+
+/* unvisited link */
+a,
+a:link {
+    color: red;
+    transition: 0.3s all ease;
+    text-decoration: none;
+}
+
+/* visited link */
+/*a:visited {
+    color: green;
+}*/
+
+/* mouse over link */
+/*a:hover {
+    color: hotpink;
+}*/
+
+/* selected link */
+/*a:active {
+    color: blue;
+}
+*/
+
+/*bg*/
+.bg-purple {
+    background: purple;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.bg-green {
+    background: green;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+/*================defult====================*/
+
+
+ /*wrapper*/
+.wrap-inner {
+    max-width: 100%;
+}
+
+
+.header-area {
+    background: #68C9E6;
+    padding: 24px 0 40px;
+    position: sticky;
+    z-index: 999999;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.header-area .logo img {
+    max-width: 30%;
+    width: auto;
+}
+
+
+
+
+.nav-menu {
+  padding: 10px 10px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.nav-menu ul {
+    list-style-type: none;
+}
+
+.nav-menu ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-menu ul li {
+  float: left;
+}
+
+.nav-menu ul li a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-right: 8px;
+  min-width: 77px;
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li#active a {
+    background-color: rgb(100, 58, 121);
+}
+
+.header-area .contact-inner {
+    display: flex;
+    padding: 15px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    <div class="header">
+        <h2>Responsive Templates</h2>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Content</a></li>
+        </ul>
+    </div>*/
